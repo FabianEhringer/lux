@@ -26,4 +26,4 @@ sudo snap install atom --classic
 
 # Scripts
 ./scripts/hyper.sh
-
+./scripts/playground.sh
