@@ -26,4 +26,5 @@ sudo snap install atom --classic
 
 # Scripts
 ./scripts/hyper.sh
-
+./scripts/atom.sh
+./scripts/yarn.sh
