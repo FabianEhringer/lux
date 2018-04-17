@@ -28,3 +28,4 @@ sudo snap install atom --classic
 ./scripts/hyper.sh
 ./scripts/atom.sh
 ./scripts/yarn.sh
+./scripts/playground.sh
