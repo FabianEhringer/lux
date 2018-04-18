@@ -1,0 +1,40 @@
+"*":
+  "atom-package-deps":
+    ignored: [
+      "prettier-atom"
+    ]
+  core:
+    autoHideMenuBar: true
+    customFileTypes:
+      "source.ini": [
+        ".hgrc"
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "9c926188-0dbd-4382-910c-b2bafe8d5d47"
+  nuclide:
+    "nuclide-flow":
+      canUseFlowBin: true
+    "nuclide-home":
+      showHome: false
+    use: {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      parser: "flow"
+    useEditorConfig: false
+    useEslint: true
+  welcome:
+    showOnStartup: false
