@@ -10,9 +10,12 @@ sudo apt-get install -y arc-theme
 sudo apt-get install -y wget curl
 sudo apt-get install -y git
 sudo apt-get install -y build-essential
+sudo apt-get install -y ppa-purge
 sudo apt-get install -y snapd snap-confine
 sudo apt install -y chrome-gnome-shell
 sudo snap install spotify
+sudo snap install slack --classic
+snap install mailspring
 
 # Zsh
 sudo apt-get install -y zsh
