@@ -17,6 +17,10 @@ sudo snap install spotify
 sudo snap install slack --classic
 snap install mailspring
 
+# React Native
+sudo sysctl -w fs.inotify.max_user_instances=1024
+sudo sysctl -w fs.inotify.max_user_watches=12288
+
 # Zsh
 sudo apt-get install -y zsh
 chsh -s $(which zsh)
@@ -32,3 +36,7 @@ sudo snap install atom --classic
 ./scripts/atom.sh
 ./scripts/yarn.sh
 ./scripts/playground.sh
+./scripts/watchman.sh
+./scripts/oracle-jdk.sh
+./scripts/docker.sh
+./scripts/android-studio.sh
