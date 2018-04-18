@@ -24,6 +24,7 @@
   "exception-reporting":
     userId: "9c926188-0dbd-4382-910c-b2bafe8d5d47"
   nuclide:
+    installRecommendedPackages: true
     "nuclide-flow":
       canUseFlowBin: true
     "nuclide-home":
