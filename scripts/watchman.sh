@@ -10,3 +10,4 @@ sudo apt install -y autoconf automake build-essential python-dev libssl-dev libt
 ./configure --enable-lenient
 make
 sudo make install
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
