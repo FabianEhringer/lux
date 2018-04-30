@@ -2,6 +2,7 @@
   "atom-package-deps":
     ignored: [
       "prettier-atom"
+      "linter-eslint"
     ]
   core:
     autoHideMenuBar: true
@@ -26,6 +27,7 @@
   "exception-reporting":
     userId: "9c926188-0dbd-4382-910c-b2bafe8d5d47"
   nuclide:
+    "atom-ide-code-format": {}
     installRecommendedPackages: true
     "nuclide-flow":
       canUseFlowBin: true
@@ -39,5 +41,10 @@
       parser: "flow"
     useEditorConfig: false
     useEslint: true
+  "todo-show":
+    sortBy: "Path"
   welcome:
     showOnStartup: false
+".reason.source":
+  editor:
+    preferredLineLength: 110
