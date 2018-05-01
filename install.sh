@@ -25,6 +25,7 @@ sudo sysctl -w fs.inotify.max_user_watches=12288
 sudo apt-get install -y zsh
 chsh -s $(which zsh)
 sudo chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Development
 sudo apt-get install -y nodejs
